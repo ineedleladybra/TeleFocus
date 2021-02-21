@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C591481DBA4DD600CAB2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C591471DBA4DD600CAB2D5 /* main.m */; };
+		42C5914B1DBA4DD600CAB2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5914A1DBA4DD600CAB2D5 /* AppDelegate.m */; };
+		42C591561DBA4DD600CAB2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C591551DBA4DD600CAB2D5 /* Assets.xcassets */; };
+		42C591691DBA4F2900CAB2D5 /* DCBFocusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C591661DBA4F2900CAB2D5 /* DCBFocusVC.m */; };
+		42C5916A1DBA4F2900CAB2D5 /* DCBSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C591681DBA4F2900CAB2D5 /* DCBSettingsVC.m */; };
+		42C5916D1DBA4FF300CAB2D5 /* DCBBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5916C1DBA4FF300CAB2D5 /* DCBBluetoothManager.m */; };
+		42C5916F1DBA7BE700CAB2D5 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C5916E1DBA7BE700CAB2D5 /* main.storyboard */; };
+		42C591741DBA7F0E00CAB2D5 /* DCBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C591731DBA7F0E00CAB2D5 /* DCBTabBarController.m */; };
+		42C591771DBBB17300CAB2D5 /* DCBHM10Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C591761DBBB17300CAB2D5 /* DCBHM10Service.m */; };
+		62730ED31DF491F500DCFF38 /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62730ED21DF491F500DCFF38 /* select.wav */; };
+		6289E42C1DC952F600E7D7DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6289E42B1DC952F600E7D7DE /* AVFoundation.framework */; };
+		6289E42E1DC9531100E7D7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6289E42D1DC9531100E7D7DE /* UIKit.framework */; };
+		6289E4301DC9531600E7D7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6289E42F1DC9531600E7D7DE /* Foundation.framework */; };
+		6289E4321DC9531E00E7D7DE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6289E4311DC9531E00E7D7DE /* CoreBluetooth.framework */; };
+		6289E4361DC9548800E7D7DE /* button_down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6289E4331DC9548800E7D7DE /* button_down.wav */; };
+		6289E4371DC9548800E7D7DE /* ble_disconnected.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6289E4341DC9548800E7D7DE /* ble_disconnected.wav */; };
+		6289E4381DC9548800E7D7DE /* ble_connected.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6289E4351DC9548800E7D7DE /* ble_connected.wav */; };
+		6289E43B1DC9570400E7D7DE /* DCBImageFromColour.m in Sources */ = {isa = PBXBuildFile; fileRef = 6289E43A1DC9570400E7D7DE /* DCBImageFromColour.m */; };
+		629C7F7C1DBC1E4F008DD223 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629C7F7B1DBC1E4F008DD223 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42C591431DBA4DD600CAB2D5 /* TeleFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C591471DBA4DD600CAB2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42C591491DBA4DD600CAB2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42C5914A1DBA4DD600CAB2D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42C591551DBA4DD600CAB2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TeleFocus/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		42C5915A1DBA4DD600CAB2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C591651DBA4F2900CAB2D5 /* DCBFocusVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBFocusVC.h; sourceTree = "<group>"; };
+		42C591661DBA4F2900CAB2D5 /* DCBFocusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBFocusVC.m; sourceTree = "<group>"; };
+		42C591671DBA4F2900CAB2D5 /* DCBSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBSettingsVC.h; sourceTree = "<group>"; };
+		42C591681DBA4F2900CAB2D5 /* DCBSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBSettingsVC.m; sourceTree = "<group>"; };
+		42C5916B1DBA4FF300CAB2D5 /* DCBBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBBluetoothManager.h; sourceTree = "<group>"; };
+		42C5916C1DBA4FF300CAB2D5 /* DCBBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBBluetoothManager.m; sourceTree = "<group>"; };
+		42C5916E1DBA7BE700CAB2D5 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		42C591721DBA7F0E00CAB2D5 /* DCBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBTabBarController.h; sourceTree = "<group>"; };
+		42C591731DBA7F0E00CAB2D5 /* DCBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBTabBarController.m; sourceTree = "<group>"; };
+		42C591751DBBB17300CAB2D5 /* DCBHM10Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBHM10Service.h; sourceTree = "<group>"; };
+		42C591761DBBB17300CAB2D5 /* DCBHM10Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBHM10Service.m; sourceTree = "<group>"; };
+		62730ED21DF491F500DCFF38 /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = select.wav; sourceTree = "<group>"; };
+		6289E42B1DC952F600E7D7DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6289E42D1DC9531100E7D7DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6289E42F1DC9531600E7D7DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6289E4311DC9531E00E7D7DE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6289E4331DC9548800E7D7DE /* button_down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_down.wav; sourceTree = "<group>"; };
+		6289E4341DC9548800E7D7DE /* ble_disconnected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ble_disconnected.wav; sourceTree = "<group>"; };
+		6289E4351DC9548800E7D7DE /* ble_connected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ble_connected.wav; sourceTree = "<group>"; };
+		6289E4391DC9570400E7D7DE /* DCBImageFromColour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBImageFromColour.h; sourceTree = "<group>"; };
+		6289E43A1DC9570400E7D7DE /* DCBImageFromColour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBImageFromColour.m; sourceTree = "<group>"; };
+		629C7F7B1DBC1E4F008DD223 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C591401DBA4DD600CAB2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6289E4321DC9531E00E7D7DE /* CoreBluetooth.framework in Frameworks */,
+				6289E4301DC9531600E7D7DE /* Foundation.framework in Frameworks */,
+				6289E42E1DC9531100E7D7DE /* UIKit.framework in Frameworks */,
+				6289E42C1DC952F600E7D7DE /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C5913A1DBA4DD600CAB2D5 = {
+			isa = PBXGroup;
+			children = (
+				42C591451DBA4DD600CAB2D5 /* TeleFocus */,
+				42C591441DBA4DD600CAB2D5 /* Products */,
+				6289E42A1DC952F600E7D7DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42C591441DBA4DD600CAB2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C591431DBA4DD600CAB2D5 /* TeleFocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C591451DBA4DD600CAB2D5 /* TeleFocus */ = {
+			isa = PBXGroup;
+			children = (
+				62730ED21DF491F500DCFF38 /* select.wav */,
+				6289E4331DC9548800E7D7DE /* button_down.wav */,
+				6289E4341DC9548800E7D7DE /* ble_disconnected.wav */,
+				6289E4351DC9548800E7D7DE /* ble_connected.wav */,
+				42C591641DBA4F1300CAB2D5 /* Storyboards */,
+				42C591601DBA4EEE00CAB2D5 /* Additional Classes */,
+				42C591611DBA4EEE00CAB2D5 /* Helpers */,
+				42C591621DBA4EEE00CAB2D5 /* ViewControllers */,
+				42C591491DBA4DD600CAB2D5 /* AppDelegate.h */,
+				42C5914A1DBA4DD600CAB2D5 /* AppDelegate.m */,
+				42C591551DBA4DD600CAB2D5 /* Assets.xcassets */,
+				42C5915A1DBA4DD600CAB2D5 /* Info.plist */,
+				42C591461DBA4DD600CAB2D5 /* Supporting Files */,
+			);
+			path = TeleFocus;
+			sourceTree = "<group>";
+		};
+		42C591461DBA4DD600CAB2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C591471DBA4DD600CAB2D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42C591601DBA4EEE00CAB2D5 /* Additional Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42C5916B1DBA4FF300CAB2D5 /* DCBBluetoothManager.h */,
+				42C5916C1DBA4FF300CAB2D5 /* DCBBluetoothManager.m */,
+				42C591751DBBB17300CAB2D5 /* DCBHM10Service.h */,
+				42C591761DBBB17300CAB2D5 /* DCBHM10Service.m */,
+			);
+			path = "Additional Classes";
+			sourceTree = "<group>";
+		};
+		42C591611DBA4EEE00CAB2D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6289E4391DC9570400E7D7DE /* DCBImageFromColour.h */,
+				6289E43A1DC9570400E7D7DE /* DCBImageFromColour.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		42C591621DBA4EEE00CAB2D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				42C591721DBA7F0E00CAB2D5 /* DCBTabBarController.h */,
+				42C591731DBA7F0E00CAB2D5 /* DCBTabBarController.m */,
+				42C591651DBA4F2900CAB2D5 /* DCBFocusVC.h */,
+				42C591661DBA4F2900CAB2D5 /* DCBFocusVC.m */,
+				42C591671DBA4F2900CAB2D5 /* DCBSettingsVC.h */,
+				42C591681DBA4F2900CAB2D5 /* DCBSettingsVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42C591641DBA4F1300CAB2D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				629C7F7B1DBC1E4F008DD223 /* Launch Screen.storyboard */,
+				42C5916E1DBA7BE700CAB2D5 /* main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6289E42A1DC952F600E7D7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6289E4311DC9531E00E7D7DE /* CoreBluetooth.framework */,
+				6289E42F1DC9531600E7D7DE /* Foundation.framework */,
+				6289E42D1DC9531100E7D7DE /* UIKit.framework */,
+				6289E42B1DC952F600E7D7DE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C591421DBA4DD600CAB2D5 /* TeleFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C5915D1DBA4DD600CAB2D5 /* Build configuration list for PBXNativeTarget "TeleFocus" */;
+			buildPhases = (
+				42C5913F1DBA4DD600CAB2D5 /* Sources */,
+				42C591401DBA4DD600CAB2D5 /* Frameworks */,
+				42C591411DBA4DD600CAB2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeleFocus;
+			productName = TeleFocus;
+			productReference = 42C591431DBA4DD600CAB2D5 /* TeleFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C5913B1DBA4DD600CAB2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Daniel Bradley";
+				TargetAttributes = {
+					42C591421DBA4DD600CAB2D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7X26MD6YL8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42C5913E1DBA4DD600CAB2D5 /* Build configuration list for PBXProject "TeleFocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42C5913A1DBA4DD600CAB2D5;
+			productRefGroup = 42C591441DBA4DD600CAB2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C591421DBA4DD600CAB2D5 /* TeleFocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C591411DBA4DD600CAB2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62730ED31DF491F500DCFF38 /* select.wav in Resources */,
+				42C5916F1DBA7BE700CAB2D5 /* main.storyboard in Resources */,
+				629C7F7C1DBC1E4F008DD223 /* Launch Screen.storyboard in Resources */,
+				6289E4381DC9548800E7D7DE /* ble_connected.wav in Resources */,
+				6289E4371DC9548800E7D7DE /* ble_disconnected.wav in Resources */,
+				6289E4361DC9548800E7D7DE /* button_down.wav in Resources */,
+				42C591561DBA4DD600CAB2D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C5913F1DBA4DD600CAB2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C5916A1DBA4F2900CAB2D5 /* DCBSettingsVC.m in Sources */,
+				42C591771DBBB17300CAB2D5 /* DCBHM10Service.m in Sources */,
+				42C591741DBA7F0E00CAB2D5 /* DCBTabBarController.m in Sources */,
+				6289E43B1DC9570400E7D7DE /* DCBImageFromColour.m in Sources */,
+				42C5916D1DBA4FF300CAB2D5 /* DCBBluetoothManager.m in Sources */,
+				42C5914B1DBA4DD600CAB2D5 /* AppDelegate.m in Sources */,
+				42C591691DBA4F2900CAB2D5 /* DCBFocusVC.m in Sources */,
+				42C591481DBA4DD600CAB2D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42C5915B1DBA4DD600CAB2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42C5915C1DBA4DD600CAB2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42C5915E1DBA4DD600CAB2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7X26MD6YL8;
+				INFOPLIST_FILE = TeleFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.danielbradley.bletelefocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		42C5915F1DBA4DD600CAB2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7X26MD6YL8;
+				INFOPLIST_FILE = TeleFocus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.danielbradley.bletelefocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C5913E1DBA4DD600CAB2D5 /* Build configuration list for PBXProject "TeleFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C5915B1DBA4DD600CAB2D5 /* Debug */,
+				42C5915C1DBA4DD600CAB2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C5915D1DBA4DD600CAB2D5 /* Build configuration list for PBXNativeTarget "TeleFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C5915E1DBA4DD600CAB2D5 /* Debug */,
+				42C5915F1DBA4DD600CAB2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C5913B1DBA4DD600CAB2D5 /* Project object */;
+}
